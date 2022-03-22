@@ -18,7 +18,7 @@ Two different implementations that passed the baseline are proposed with `scikit
 
 *Baseline evaluation:* asymmetric MSE cost on the test set.
 
-fig1_project1  
+![Text](figures/fig1_project1.png)  
 *Fig. 1.1 (L to R):* 2D GP predictions map, 3D raw GP estimates (height = GP means, color = GP std devs), 2D GP std dev map.
 
 ## Project 2
@@ -38,7 +38,7 @@ Implementation of Bayesian optimization under constraints to the feasible domain
 
 *Baseline evaluation:* mean normalized regret under constraint satisfaction on 27 different tasks. 
 
-fig1_project3  
+![Text](figures/fig1_project3.png)  
 *Fig. 3.1:* Some solution features for the toy example. *(L to R)* Objective function map with feasability domains, 3D plot of objective function estimate, 3D plot of constraint function estimate, constraint function map with feasability domains.
 
 ## Project 4
