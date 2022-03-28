@@ -18,7 +18,11 @@ Two different implementations that passed the baseline are proposed with `scikit
 
 *Baseline evaluation:* asymmetric MSE cost on the test set.
 
-![Text](figures/fig1_project1.png)  
+<p align="left">
+  <img src="https://github.com/alextimans/eth-probabilistic-ai/blob/main/figures/project1_fig1.png" height="350">  
+</p>
+<!--- ![Project 1](https://github.com/alextimans/eth-probabilistic-ai/blob/main/figures/project1_fig1.png) --->
+
 *Fig. 1.1 (L to R):* 2D GP predictions map, 3D raw GP estimates (height = GP means, color = GP std devs), 2D GP std dev map.
 
 ## Project 2
@@ -27,9 +31,18 @@ Bayesian neural network implementation based on the ’Bayes by Backprop’ algo
 
 *Baseline evaluation:* compound score of both accuracy and empirical expected calibration error (ECE).
 
-mnist_least/most confident  
+<p align="left">
+  <img src="https://github.com/alextimans/eth-probabilistic-ai/blob/main/figures/mnist_most_confident.png" width="45%" />
+  <img src="https://github.com/alextimans/eth-probabilistic-ai/blob/main/figures/mnist_least_confident.png" width="45%" /> 
+</p>
+
 *Fig. 2.1:* Sample test set most and least confident predictions for MNIST.  
-fashionmnist_least/most confident  
+
+<p align="left">
+  <img src="https://github.com/alextimans/eth-probabilistic-ai/blob/main/figures/fashionmnist_most_confident.png" width="45%" />
+  <img src="https://github.com/alextimans/eth-probabilistic-ai/blob/main/figures/fashionmnist_least_confident.png" width="45%" /> 
+</p>
+
 *Fig. 2.2:* Sample test set most and least confident predictions for FashionMNIST as a sample visualisation of the BNN’s calibration under strong distribution shift. 
 
 ## Project 3
@@ -38,7 +51,11 @@ Implementation of Bayesian optimization under constraints to the feasible domain
 
 *Baseline evaluation:* mean normalized regret under constraint satisfaction on 27 different tasks. 
 
-![Text](https://github.com/alextimans/eth-probabilistic-ai/blob/main/figures/project3_fig1.png)  
+<p align="left">
+  <img src="https://github.com/alextimans/eth-probabilistic-ai/blob/main/figures/project3_fig1.png" height="220">  
+</p>
+<!--- ![Project 3](https://github.com/alextimans/eth-probabilistic-ai/blob/main/figures/project3_fig1.png) --->
+
 *Fig. 3.1:* Some solution features for the toy example. *(L to R)* Objective function map with feasability domains, 3D plot of objective function estimate, 3D plot of constraint function estimate, constraint function map with feasability domains.
 
 ## Project 4
@@ -47,5 +64,9 @@ Reinforcement learning task using Generalized Advantage Estimation (GAE) as pres
 
 *Baseline evaluation:* estimated expected cumulative reward of the final policy over an episode. 
 
-GIF  
+<p align="left">
+  <img src="https://github.com/alextimans/eth-probabilistic-ai/blob/main/figures/lunar_lander.gif" >  
+</p>
+<!--- ![Project 4](https://github.com/alextimans/eth-probabilistic-ai/blob/main/figures/lunar_lander.gif) --->
+
 *Fig. 4.1:* Sample visualisation of the final policy on the lunar lander control task at evaluation time.
