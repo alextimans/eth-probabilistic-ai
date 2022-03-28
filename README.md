@@ -38,7 +38,7 @@ Implementation of Bayesian optimization under constraints to the feasible domain
 
 *Baseline evaluation:* mean normalized regret under constraint satisfaction on 27 different tasks. 
 
-![Text](figures/fig1_project3.png)  
+![Text](https://github.com/alextimans/eth-probabilistic-ai/blob/main/figures/project3_fig1.png)  
 *Fig. 3.1:* Some solution features for the toy example. *(L to R)* Objective function map with feasability domains, 3D plot of objective function estimate, 3D plot of constraint function estimate, constraint function map with feasability domains.
 
 ## Project 4
